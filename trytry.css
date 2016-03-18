@@ -1,0 +1,149 @@
+body {
+	padding: 0em;
+	margin:0em;
+
+}
+
+
+::-webkit-scrollbar{
+	width: 0px;
+	height: 0px;
+}
+
+
+#forheader{
+	height: 3em;
+	background-color: #CCCCFF;
+	/*display: none;*/
+}
+
+#header{
+	width: 100%;
+	min-height: 1em;
+	text-align: center;
+	font-size: 2em;
+	background-color: #FFFF66;
+	position: fixed;
+	border-bottom: solid 1px #FF6666;
+	top: 0em;
+}
+
+#leaderbtn{
+	font-size: 0.5em;
+	float: right;
+	min-height: 2.5em;
+	min-width: 4em;
+	background-color: #FFFFCC;
+	border-left: solid 1px #FF6666;
+	cursor: pointer;
+}
+
+#headertxt{
+	display: inline;
+	position: absolute;
+	top: 20%;
+	right: 1em;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+
+#mainleader{
+	position: fixed;
+	width: 9em;
+	max-height: 70%;
+	background-color: #99CCCC;
+	right: 0;
+	top: 2.6em;
+	border: #333333 1px solid;
+	overflow: auto;
+	display: none;
+}
+
+#viceLeader{
+	position: fixed;
+	width: 9em;
+	max-height: 70%;
+	background-color: #99CCCC;
+	right: 9em;
+	top: 2.6em;
+	border: #333333 1px solid;
+	overflow: auto;
+	display: none;
+}
+
+.itemleader{
+	position: relative;
+	height: 1.5em;
+	border: #333333 1px solid;
+	line-height: 1.5em;
+	text-align: center
+}
+
+
+
+#secheader{
+	width: 100%;
+	background-color: #CCCCFF;
+}
+
+#secheaderimg{
+	width: 100%;
+}
+
+#recommend{
+	margin: 0em;
+	margin-top: 6em;
+	margin-bottom: 3em;
+	width: 100%;
+	border-bottom: solid 0.1em #FF0033;
+	border-top: solid 0.1em #FF0033;
+}
+
+td{
+	height: 5em;
+	font-size: 2em;
+	font-weight: bolder;
+}
+
+.itemrecommend{
+	width: 50%;
+	text-align: center;
+	height: 5em;
+	clear: both;
+}
+
+#recommendtable{
+	width: 100%;
+	
+}
+
+
+#firstlead{
+	margin: auto;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	width: 100%;
+	/*background-color: #CCCCCC;*/
+	text-align: center;
+}
+
+.itemFirstLead{
+	display: inline-block;
+	width: 24%;
+	padding-bottom: 25%;
+	height: 0;
+	text-align: center;
+	/*background-color: #FFCCCC;*/
+}
+
+
+.itemFirstLead img{
+	width:80%;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+}
+
+
+#content{
+	width: 100%;
+}

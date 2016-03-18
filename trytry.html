@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Pragma" content="no-cache">
+		<meta http-equiv="Cache-Control" content="no-cache">
+		<meta http-equiv="Expires" content="0">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1"/>
+		
+		<meta name="apple-mobile-web-app-title" content="yeziyuan" />
+   <meta name="apple-mobile-web-app-capable" content="yes" />
+   <meta content="telephone=no" name="format-detection" />
+   <meta name="full-screen" content="yes" />
+   <meta name="x5-fullscreen" content="true" /> 
+		
+		
+		
+		<script src="include/class.js?ver=16" type="text/javascript"></script>
+
+		<title>trytry</title>
+		<script type="text/javascript">
+			function autoheight (ele) {
+				ele.style.height = 'auto';
+				ele.scrollTop = 0;
+
+			  ele.style.height=ele.scrollHeight+"px";
+			}
+			
+			function mscroller (ele) {
+				// alert(document.body.scrollHeight);
+				var a=document.body.scrollTop+document.documentElement.clientHeight;
+				var Top = Math.max(document.documentElement.scrollTop, document.body.scrollTop);
+				var cHeight= document.documentElement.clientHeight;
+				var sHeight=document.documentElement.scrollHeight;
+				//alert(document.documentElement.scrollHeight+"|"+a);
+			  if(sHeight<=Top+cHeight){
+			  	alert("hello");
+			  }
+			  
+			}
+			
+			function monload () {
+			  //alert(document.getElementById("show").scrollTop);
+			  alert("document.documentElement.offsetTop "+document.documentElement.offsetTop+" \ndocument.documentElement.clientHeight: "+document.documentElement.clientHeight+" \ndocument.body.clientHeight "+document.body.clientHeight+" \ndocument.documentElement.scrollHeight "+document.documentElement.scrollHeight+" \ndocument.body.scrollHeight "+document.body.scrollHeight+" \ndocument.documentElement.scrollTop "+document.documentElement.scrollTop+" \ndocument.body.scrollTop "+document.body.scrollTop+" \ndocument.documentElement.pageYOffset "+document.documentElement.pageYOffset+" \nwindow.screenTop "+window.screenTop);
+			}
+			
+			
+			function errmsg(message, url, line) {
+	alert("错误：" + message + "url:" + url + "\nline" + line + "\n");
+	return true;
+}
+
+window.onerror = errmsg;
+
+// function CreateHttpRQ() {
+	// if ("Microsoft Internet Explorer" == navigator.appName) {
+		// try {
+			// return new ActiveXObject("Microsoft.XMLHTTP");
+		// } catch(e) {
+			// return null;
+		// }
+	// } else {
+		// return new XMLHttpRequest();
+	// }
+// }
+// 
+// 
+// function OnStateChange() {
+	// if (rq.readyState == 4) {
+		// if (rq.status == 200) {
+			// // document.getElementById("change").innerHTML=rq.responseText+"nihao1";
+			// document.getElementById("content").innerHTML = rq.responseText;
+			// if(rq.responseText==""){
+				// alert("hello");
+			// }
+		// } else {
+			// document.getElementById("content").innerHTML = "asd";
+		// }
+		// //document.getElementById("mdiv").innerHTML=rq.toString();
+	// }
+// }
+// 
+			// function majax () {
+			  // rq = CreateHttpRQ();
+				// rq.open("GET", "trytry2.php", true);
+				// // rq.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+				// rq.onreadystatechange = OnStateChange;
+				// rq.send(null);
+				// //alert("hi");
+			// }
+			
+			// var a=ClassAddMore.Instance();
+			// a.setitemid(1);
+			// a.setendfun(function(argument) {
+				// document.getElementById("mclick").innerHTML="no more";
+			// });
+// 			
+			
+		</script>
+
+	</head>
+
+	<body onload="monload()" style="padding: 0;margin: 0;">
+		<div id="content">
+
+		<input type="button" onclick="majax()" value="majax"/>
+		<form method="post" action="commentcontroler.php?action=add">
+			<textarea name="txtarea" style="width: 30em;height:5em; overflow:hidden;" maxlength="500" oninput="autoheight(this)"></textarea>
+			<div>
+				<input type="submit" value="shangchuang" />
+			</div>
+			<input type="hidden" name="itemid" value="1" />
+		</form>
+		 <p>
+		 	aaaaaaaaaaaaaa
+		 </p>
+		 <p>
+		 	aaaaaaaaaaaaaa
+		 </p>
+		 <p>
+		 	aaaaaaaaaaaaaa
+		 </p>
+		 <p>
+		 	aaaaaaaaaaaaaa
+		 </p>
+		 <p>
+		 	aaaaaaaaaaaaaa
+		 </p>
+		 <p>
+		 	aaaaaaaaaaaaaa
+		 </p>
+		 <p>
+		 	aaaaaaaaaaaaaa
+		 </p>
+		 <p>
+		 	aaaaaaaaaaaaaa
+		 </p>
+		 <p>
+		 	aaaaaaaaaaaaaa
+		 </p>
+		 <p>
+		 	aaaaaaaaaaaaaa
+		 </p>
+		 <p>
+		 	aaaaaaaaaaaaaa
+		 </p>
+		 <p>
+		 	aaaaaaaaaaaaaa
+		 </p>
+		 <p>
+		 	aaaaaaaaaaaaaa
+		 </p>
+		 <p>
+		 	aaaaaaaaaaaaaa
+		 </p>
+		 <p>
+		 	aaaaaaaaaaaaaa
+		 </p>
+		 <p>
+		 	aaaaaaaaaaaaaa
+		 </p>
+		<div id="show" style="text-align: center;">loading</div>
+		<div id="mclick" onclick="monload()" style="text-align: center;">add more</div>
+		</div>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+

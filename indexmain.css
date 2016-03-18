@@ -1,0 +1,345 @@
+body {
+	padding: 0;
+	margin: 0;
+
+}
+
+
+::-webkit-scrollbar{
+	width: 0px;
+	height: 0px;
+}
+
+
+#forheader{
+	height: 3em;
+	background-color: #CCCCFF;
+	/*display: none;*/
+}
+
+#header{
+	width: 100%;
+	min-height: 1em;
+	text-align: center;
+	font-size: 2em;
+	background-color: #FFFF66;
+	position: fixed;
+	border-bottom: solid 1px #FF6666;
+	top: 0em;
+	z-index: 999;
+}
+
+#leaderbtn{
+	position: relative;
+	font-size: 0.5em;
+	float: right;
+	min-height: 2.5em;
+	min-width: 4em;
+	background-color: #FFFFCC;
+	border-left: solid 1px #FF6666;
+	cursor: pointer;
+}
+
+#backbtn{
+	position: relative;
+	font-size: 0.5em;
+	float: left;
+	min-height: 2.5em;
+	min-width: 4em;
+	background-color: #FFFFCC;
+	border-right: solid 1px #FF6666;
+	cursor: pointer;
+}
+
+#indexbtn{
+	position: relative;
+	font-size: 0.5em;
+	float: left;
+	min-height: 2.5em;
+	min-width: 4em;
+	background-color: #FFFFCC;
+	border-right: solid 1px #FF6666;
+	cursor: pointer;
+}
+
+#indextxt{
+		display: inline;
+	position: absolute;
+	top: 20%;
+	right: 1em;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+
+#headertxt{
+	display: inline;
+	position: absolute;
+	top: 20%;
+	right: 1em;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+
+#mainleader{
+	position: fixed;
+	width: 9em;
+	max-height: 70%;
+	background-color: #99CCCC;
+	right: 0;
+	top: 2.6em;
+	border: #333333 1px solid;
+	overflow: auto;
+	display: none;
+	z-index: 999;
+}
+
+#viceLeader{
+	position: fixed;
+	width: 9em;
+	max-height: 70%;
+	background-color: #99CCCC;
+	right: 9em;
+	top: 2.6em;
+	border: #333333 1px solid;
+	overflow: auto;
+	display: none;
+	z-index: 999;
+}
+
+.itemleader{
+	position: relative;
+	height: 1.5em;
+	border: #333333 1px solid;
+	line-height: 1.5em;
+	text-align: center
+}
+
+
+
+#secheader{
+	width: 100%;
+	background-color: #CCCCFF;
+}
+
+#secheaderimg{
+	width: 100%;
+}
+
+#recommend{
+	margin: 0em;
+	margin-top: 6em;
+	margin-bottom: 3em;
+	width: 100%;
+	border-bottom: solid 0.1em #FF0033;
+	border-top: solid 0.1em #FF0033;
+}
+
+#recommendtable td{
+	height: 5em;
+	font-size: 2em;
+	font-weight: bolder;
+}
+
+.itemrecommend{
+	width: 50%;
+	text-align: center;
+	height: 5em;
+	clear: both;
+}
+
+#recommendtable{
+	width: 100%;
+	
+}
+
+
+#firstlead{
+	margin: auto;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	width: 100%;
+	/*background-color: #CCCCCC;*/
+	text-align: center;
+}
+
+.itemFirstLead{
+	display: inline-block;
+	width: 24%;
+	padding-bottom: 25%;
+	height: 0;
+	text-align: center;
+	/*background-color: #FFCCCC;*/
+}
+
+
+.itemFirstLead img{
+	width:80%;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+}
+
+
+#content{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+.boder_item{
+	position: relative;
+	margin: 0;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	/*background-color: #FF9900;*/
+	background-color: #FFFFCC;
+	border-top: 0.1em solid #CCCCCC;
+	border-bottom: 0.1em solid #CCCCCC;
+	padding: 0;
+}
+
+.img_item{
+	/*display: inline-block;*/
+	float: left;
+	position: relative;
+	width: 40%;
+	height: 0;
+	padding-bottom: 30%;
+	/*background-image: url(image/pic0.jpg);*/
+	/*vertical-align: text-bottom;*/
+	overflow: hidden;
+}
+
+
+.img_border{
+	
+	position: absolute;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	border-radius: 3%;
+	-webkit-border-radius: 3%;
+}
+
+
+.img_item img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 3%;
+	-webkit-border-radius: 3%;
+	
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.txt_item{
+	/*display: inline-block;*/
+	position: relative;
+	float: right;
+	/*margin: 0.1em;*/
+	/*background-color: #CCFFFF;*/
+	width: 59%;
+	height: 0;
+	padding-bottom: 30%;
+}
+
+
+.innertxt_item{
+	float: left;
+	/*display: inline-block;*/
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	/*height: 100%;*/
+	/*background-color: #FF6666;*/
+}
+
+
+.choice_item{
+	float: left;
+	width: 20%;
+	height: 100%;
+	background-color: #FFCCCC;
+}
+
+
+.nametxt_item{
+	height: 40%;
+	background-color: #FFCC99;
+}
+
+
+.nametxt_item .name{
+	float: right;
+}
+
+.nametxt_item .des{
+	float: right;
+	height: 95%;
+	width: 80%;
+	background-color: #99CCFF;
+	border: 1px solid #CCCCFF;
+}
+
+.pricetxt_item{
+	height: 40%;
+	background-color: #FFCC99;
+}
+
+
+.pricetxt_item .name{
+	float: right;
+}
+
+.pricetxt_item .des{
+	float: right;
+	height: 90%;
+	width: 80%;
+	background-color: #99CCFF;
+	border: 1px solid #CCCCFF;
+}
+
+
+.destxt_item{
+	height: 20%;
+	background-color: #FFCC99;
+}
+
+
+.destxt_item .name{
+	float: right;
+}
+
+.destxt_item .des{
+	float: right;
+	height: 90%;
+	width: 80%;
+	background-color: #99CCFF;
+	border: 1px solid #CCCCFF;
+}
+
+
+.name{
+	font-size: 0.5em;
+	
+}
+
+.des{
+	text-align: center;
+}
+
+
+
+
+
+#itemdesshow img{
+	width: 100%;
+}
